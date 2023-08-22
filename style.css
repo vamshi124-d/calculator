@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+.container{
+    height: 70vh;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.incontainer{
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+   padding: 10px;
+   padding-top: 20px;
+}
+.input{
+    margin: 3px;
+    font-size: 25px;
+    height: 30px;
+    width: 280px;
+    border-radius: 5px;
+}
+.button{
+    font-size: 20px;
+    width: 60px;
+    padding: 15px;
+    margin: 5px;
+    background-color: rgb(224, 141, 24);
+    color: white;
+    border: 3px solid;
+    border-radius: 50%;
+}
+.num{
+    background-color: rgb(71, 67, 67);
+    color: white;
+}
